@@ -1,0 +1,78 @@
+.main {
+  background-color: #2a2c2f;
+}
+.header {
+  width: calc(100% - 96px);
+  min-height: 52px;
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  margin: 28px 48px 0 48px;
+}
+
+.header__logo {
+  width: 176px;
+  height: 52px;
+}
+
+.lang-switch {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: end;
+  list-style: none;
+}
+.lang-switch__item {
+  color: #ffffff;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 1.17;
+  padding-left: 18px;
+}
+
+.lead {
+  width: calc(100% - 296px);
+  margin: 0 auto;
+}
+
+.lead__title {
+  padding: 56px 132px 0 132px;
+  margin: 0;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 96px;
+  line-height: 1.04;
+  text-align: center;
+  color: #ffffff;
+}
+
+.lead__subtitle {
+  padding: 32px 172px 0 172px;
+  margin: 0;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 1.2;
+  text-align: center;
+  color: #ffffff;
+}
+
+.lead__image {
+  padding-top: 64px;
+  width: 100%;
+}
+
+.lead__caption {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 1.4;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
