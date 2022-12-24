@@ -1,0 +1,6 @@
+.place-item__link-area {
+  display: flex;
+  flex-direction: column;
+  grid-area: link;
+  justify-content: end;
+}

@@ -1,0 +1,18 @@
+.place-item__text {
+  margin: 0;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.63;
+  color: #ffffff;
+}
+.place-item__text:not(:last-child) {
+  margin-bottom: 26px;
+}
+
+@media screen and (max-width: 1023px) {
+  .place-item__text {
+    font-size: 16px;
+  }
+}

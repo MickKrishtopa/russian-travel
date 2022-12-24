@@ -1,0 +1,54 @@
+.cover {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  margin: 92px auto 0 auto;
+  max-width: 1184px;
+  min-height: 740px;
+  background: url("../../image/background__cover.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+}
+
+.cover:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #2a2c2f;
+  opacity: 0.3;
+  transition: opacity 0.3s;
+}
+
+.cover:hover:before {
+  opacity: 0.8;
+}
+
+@media screen and (max-width: 1279px) {
+  .cover {
+    margin: 92px auto 0 auto;
+    max-width: 1024px;
+    min-height: 640px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .cover {
+    margin: 92px auto 0 auto;
+    max-width: 768px;
+    min-height: 480px;
+  }
+}
+
+@media screen and (max-width: 555px) {
+  .cover {
+    margin: 92px auto 0 auto;
+    max-width: 320px;
+    min-height: 200px;
+  }
+}
