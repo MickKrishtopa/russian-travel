@@ -1,6 +1,6 @@
-.place-item__link-title {
+.place__link-title {
   margin: 0 0 12px 0;
-  font-family: "Inter";
+  font-family: "Inter", Helvetica, sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 12px;

@@ -1,4 +1,4 @@
-.place-item {
+.place {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-areas:
@@ -8,12 +8,12 @@
   column-gap: 40px;
 }
 
-.place-item:not(:last-child) {
+.place:not(:last-child) {
   margin-bottom: 80px;
 }
 
 @media screen and (max-width: 767px) {
-  .place-item {
+  .place {
     grid-template-columns: 1fr;
     grid-template-areas:
       "title"

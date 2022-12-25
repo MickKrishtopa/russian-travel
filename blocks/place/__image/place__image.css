@@ -1,4 +1,4 @@
-.place-item__image {
+.place__image {
   grid-area: img;
   width: 100%;
 }

@@ -1,15 +1,16 @@
-.copy-right {
-  font-family: "Inter";
+.footer__copyright {
+  font-family: "Inter", Helvetica, sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.14;
   text-align: right;
   color: #ffffff;
+  margin: 0;
 }
 
 @media screen and (max-width: 720px) {
-  .copy-right {
-    margin: 0 0 24px 16px;
+  .footer__copyright {
+    margin-left: 16px;
   }
 }

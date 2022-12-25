@@ -1,4 +1,4 @@
-.place-item__link-area {
+.place__link-area {
   display: flex;
   flex-direction: column;
   grid-area: link;
