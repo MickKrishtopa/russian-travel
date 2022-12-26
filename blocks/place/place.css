@@ -20,6 +20,9 @@
       "link"
       "img"
       "text";
-    column-gap: 32px;
+    row-gap: 32px;
+  }
+  .place:not(:last-child) {
+    margin-bottom: 50px;
   }
 }

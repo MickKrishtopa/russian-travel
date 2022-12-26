@@ -15,4 +15,7 @@
   .place__text {
     font-size: 16px;
   }
+  .place__text:not(:last-child) {
+    margin-bottom: 25px;
+  }
 }
