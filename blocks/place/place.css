@@ -1,6 +1,7 @@
 .place {
   display: grid;
-  grid-template-columns: 115fr 121fr;
+  /* grid-template-columns: 115fr 121fr; */
+  grid-template-columns: 460px 1fr;
   grid-template-areas:
     "title link"
     "img text";
@@ -15,12 +16,13 @@
 @media screen and (max-width: 1279px) {
   .place {
     column-gap: 32px;
+    grid-template-columns: 440px 1fr;
   }
 }
 
 @media screen and (max-width: 1023px) {
   .place {
-    grid-template-columns: 85fr 88fr;
+    grid-template-columns: 340px 1fr;
     column-gap: 28px;
   }
 
