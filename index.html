@@ -15,18 +15,15 @@
         src="./image/header__logo.svg"
         alt="Контур России"
       />
-      <div>
-        <ul class="lang-switch">
-          <li>
-            <a href="#" class="lang-switch__item lang-switch__item_active"
-              >Ru</a
-            >
-          </li>
-          <li>
-            <a href="#" class="lang-switch__item">En</a>
-          </li>
-        </ul>
-      </div>
+
+      <ul class="lang-switch">
+        <li>
+          <a href="#" class="lang-switch__item lang-switch__item_active">Ru</a>
+        </li>
+        <li>
+          <a href="#" class="lang-switch__item">En</a>
+        </li>
+      </ul>
     </header>
 
     <main class="content">
@@ -35,12 +32,16 @@
         <p class="lead__subtitle">
           Настоящая страна не в выпусках новостей, а здесь.
         </p>
-        <img
-          class="lead__image"
-          src="./image/lead__image.svg"
-          alt="Маршрут следования"
-        />
-        <p class="lead__caption">ваша полка — верхняя</p>
+        <figure class="lead__figure">
+          <img
+            class="lead__image"
+            src="./image/lead__image.png"
+            alt="Маршрут следования"
+          />
+          <figcaption class="lead__caption">
+            ваша полка &mdash; верхняя
+          </figcaption>
+        </figure>
       </section>
 
       <section class="intro">
@@ -132,7 +133,7 @@
             <img
               class="photo-grid__items"
               src="./image/photo_grid_7.png"
-              alt="Ельбрус"
+              alt="Эльбрус"
             />
           </li>
           <li>

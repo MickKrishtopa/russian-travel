@@ -5,12 +5,13 @@
   font-size: 14px;
   line-height: 1.14;
   text-align: right;
-  color: #ffffff;
+  color: #fff;
   margin: 0;
 }
 
 @media screen and (max-width: 720px) {
   .footer__copyright {
+    margin-top: 48px;
     margin-left: 16px;
     line-height: 1;
   }

@@ -1,9 +1,11 @@
 .lang-switch {
-  margin: 0;
+  margin: 0 0 6px;
   padding: 0;
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(2, min-content);
   align-items: end;
   list-style: none;
+  gap: 18px;
 }
 
 @media screen and (max-width: 555px) {

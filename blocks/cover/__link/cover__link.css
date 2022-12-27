@@ -8,6 +8,7 @@
   background: url("../../../image/background__cover.png");
   background-size: 100%;
   background-repeat: no-repeat;
+  background-position: center;
   align-items: center;
   justify-content: center;
   text-decoration: none;
